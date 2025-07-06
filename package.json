@@ -1,0 +1,23 @@
+{
+  "name": "microfrontent-capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd shell && webpack serve --open",
+    "start:shell": "cd shell && npm start",
+    "start:mfe1": "cd mfe1 && npm start",
+    "start:mfe2": "cd mfe2 && npm start",
+    "install:all": "npm install && cd shell && npm install && cd ../mfe1 && npm install && cd ../mfe2 && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
